@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# UCI HAR Dataset (downloaded at runtime)
+data/UCI_HAR_Dataset/
+
+# Model checkpoints and exports
+models/*.pth
+models/*.onnx
+models/*.pt
+
+# Output artifacts
+outputs/*.png
+outputs/*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
